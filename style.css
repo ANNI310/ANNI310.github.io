@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    display:flex;
+    /* justify-content: center;
+    align-content: center; */
+}
+.logo img{
+        width: 30%;
+        
+        display: flex;
+        /* justify-content: center; */
+        /* align-content: center; */
+}
+.navlist{
+    background-color:grey;
+width: 93%;
+display: flex;
+/* align-items:center; */
+}
+.navlist li{
+   list-style: none;
+   padding: 30px 30px;
+}
+.navlist li a:hover{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.rightnav{
+    background-color: rgb(148, 156, 156);
+    width: 7%;
+    text-align:right;
+}
+.background{
+    background: rgba(0,0,0,0.7)url(../about-iitk.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height:100vh;
+}
+.box-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-main{
+color: whitesmoke;
+font-family: sans-serif;
+}
+.secondhalf{
+    width:30%;
+}
+.secondhalf img{
+width: 50%;
+align-items: flex-end;
+padding-top: 10px;
+padding-left: 300px;
+border-radius: 50px;
+border-right: honeydew;
+}
+.btn{
+    padding:8px 20px;
+    margin:7px,0;
+    border:2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
